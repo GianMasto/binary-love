@@ -111,7 +111,7 @@ codeButton.addEventListener("click", function(e) {
     .split("")
     .map(function(num) {
       if (num === "0") {
-        return "🧡";
+        return "💛";
       } else if (num === "1") {
         return "❤";
       } else {
@@ -127,7 +127,7 @@ decodeButton.addEventListener("click", function(e) {
 
   var arrText = _toConsumableArray(text)
     .map(function(char) {
-      if (char === "🧡") {
+      if (char === "💛") {
         return 0;
       } else if (char === "❤") {
         return 1;
