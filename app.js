@@ -88,7 +88,7 @@ codeButton.addEventListener("click", e => {
     .split("")
     .map(num => {
       if (num === "0") {
-        return "🧡";
+        return "💛";
       } else if (num === "1") {
         return "❤";
       } else {
@@ -106,7 +106,7 @@ decodeButton.addEventListener("click", e => {
   const text = document.getElementById("text").value;
   const arrText = [...text]
     .map(char => {
-      if (char === "🧡") {
+      if (char === "💛") {
         return 0;
       } else if (char === "❤") {
         return 1;
